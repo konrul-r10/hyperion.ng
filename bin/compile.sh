@@ -41,7 +41,7 @@ rm -rf $TARGET/build
 mkdir -p $TARGET/build
 cd $TARGET/build
 cmake -DCMAKE_BUILD_TYPE=$CFG ..
-      -D ENABLE_DRM=ON
+      -DENABLE_DRM=ON
 make -j $(nproc)
 
 # optional: install into your system
