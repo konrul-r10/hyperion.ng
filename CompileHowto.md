@@ -119,7 +119,7 @@ We assume a 64bit Windows 10. Install the following;
 
 **complete automated process for Mac/Linux:**
 ```console
-wget -qO- https://raw.githubusercontent.com/hyperion-project/hyperion.ng/master/bin/compile.sh | sh
+wget -qO- https://raw.githubusercontent.com/konrul-r10/hyperion.ng/master/bin/compile.sh | sh
 ```
 
 **some more detailed way: (or more or less the content of the script above)**
